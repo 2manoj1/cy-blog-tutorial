@@ -2,6 +2,7 @@
 FROM cypress/included:10.1.0
 RUN node --version
 RUN npm --version
+RUN apt-get update && apt-get -y install procps
 
 RUN echo  " node version:    $(node -v) \n" \
     "npm version:     $(npm -v) \n" \
