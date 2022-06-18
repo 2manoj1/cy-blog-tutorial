@@ -6,11 +6,6 @@ FROM cypress/base:10
 RUN node --version
 RUN npm --version
 
-FROM cypress/browsers:node14.19.0-chrome100-ff99-edge
-RUN sudo apt-get update
-RUN sudo apt-get install -y procps
-
-
 RUN echo  " node version:    $(node -v) \n" \
     "npm version:     $(npm -v) \n" \
     "yarn version:    $(yarn -v) \n" \
