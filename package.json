@@ -7,8 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "cy:run": "start-server-and-test start http://localhost:3000 cypress run",
-    "cy:open": "start-server-and-test start http://localhost:3000 cypress open"
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "cy:dev:run": "start-server-and-test start http://localhost:3000 cy:run",
+    "cy:dev": "start-server-and-test start http://localhost:3000 cy:open"
   },
   "dependencies": {
     "next": "12.1.6",

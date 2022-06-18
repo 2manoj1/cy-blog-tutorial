@@ -3,7 +3,7 @@ image:
 
 tasks:
   - init: |
-      yarn install
+      yarn install --force
       gp sync-done install
     command: yarn dev
   - init: gp sync-await install
