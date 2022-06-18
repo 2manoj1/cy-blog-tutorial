@@ -10,7 +10,7 @@
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "cy:dev:run": "start-server-and-test start http://localhost:3000 cy:run",
-    "cy:dev": "start-server-and-test start http://localhost:3000 cy:open"
+    "cy:dev": "start-server-and-test dev http://localhost:3000 cy:open"
   },
   "dependencies": {
     "next": "12.1.6",
