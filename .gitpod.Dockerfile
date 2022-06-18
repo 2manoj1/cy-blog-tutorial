@@ -1,6 +1,3 @@
-FROM gitpod/workspace-full
-RUN sudo apt-get update
-
 # use Cypress provided image with all dependencies included
 FROM cypress/included:10.1.0
 RUN node --version
