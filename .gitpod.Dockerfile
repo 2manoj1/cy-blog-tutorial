@@ -7,7 +7,8 @@ RUN node --version
 RUN npm --version
 
 FROM cypress/browsers:node14.19.0-chrome100-ff99-edge
-RUN sudo apt-get -y install procps
+RUN sudo apt-get update
+RUN sudo apt-get install -y procps
 
 
 RUN echo  " node version:    $(node -v) \n" \
