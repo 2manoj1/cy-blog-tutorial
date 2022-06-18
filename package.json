@@ -1,0 +1,24 @@
+{
+  "name": "cy-blog-tutorial",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "cy:run": "start-server-and-test start http://localhost:3000 cypress run",
+    "cy:open": "start-server-and-test start http://localhost:3000 cypress open"
+  },
+  "dependencies": {
+    "next": "12.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "cypress": "^10.1.0",
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.1.6",
+    "start-server-and-test": "^1.14.0"
+  }
+}
