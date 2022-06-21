@@ -1,0 +1,15 @@
+{
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.format": true
+    },
+    "cucumberautocomplete.steps": [
+        "cypress/stepDefinitions/**/*.{js,ts}"
+    ],
+    "cucumberautocomplete.syncfeatures": "cypress/e2e/*.feature",
+    "editor.quickSuggestions": {
+        "strings": true
+    }
+}
