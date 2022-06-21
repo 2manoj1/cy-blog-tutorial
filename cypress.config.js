@@ -1,8 +1,9 @@
-import { defineConfig } from "cypress";
-import createBundler from "@bahmutov/cypress-esbuild-preprocessor";
-import { addCucumberPreprocessorPlugin } from "@badeball/cypress-cucumber-preprocessor";
-import { createEsbuildPlugin } from "@badeball/cypress-cucumber-preprocessor/esbuild";
-export async function setupNodeEvents(
+const { defineConfig } = require('cypress')
+const createBundler = require("@bahmutov/cypress-esbuild-preprocessor");
+const addCucumberPreprocessorPlugin = require("@badeball/cypress-cucumber-preprocessor").addCucumberPreprocessorPlugin;
+const createEsbuildPlugin = require("@badeball/cypress-cucumber-preprocessor/esbuild").createEsbuildPlugin;
+
+async function setupNodeEvents(
   on,
   config
 ) {
@@ -20,8 +21,7 @@ export async function setupNodeEvents(
   // Make sure to return the config object as it might have been modified by the plugin.
   return config;
 }
-
-export default defineConfig({
+module.exports = defineConfig({
   chromeWebSecurity: false,
   viewportWidth: 1440,
   viewportHeight: 900,
