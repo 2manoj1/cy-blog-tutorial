@@ -1,4 +1,5 @@
-image: cypress/included:10.1.0
+image: 
+  file: .gitpod.Dockerfile
 
 tasks:
   - name: Dev Server
