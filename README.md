@@ -1,3 +1,9 @@
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#[https://github.com/mikenikles/cypress-on-gitpod](https://github.com/2manoj1/cy-blog-tutorial)
+
+Cypress 10 + Nextjs 12 + Cucumber setup.
+
+Connect me if anything required. 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
