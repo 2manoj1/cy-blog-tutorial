@@ -1,3 +1,4 @@
+
 image: 
   file: .gitpod.Dockerfile
 
@@ -16,3 +17,7 @@ ports:
     onOpen: open-browser
   - port: 10000
     onOpen: ignore
+
+vscode:
+  extensions:
+    - alexkrechik.cucumberautocomplete
