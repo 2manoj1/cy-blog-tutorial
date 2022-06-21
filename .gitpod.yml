@@ -1,13 +1,13 @@
-image:
-  file: .gitpod.Dockerfile
+image: cypress/included:10.1.0
 
 tasks:
-  - init: |
-      yarn install --force
-      gp sync-done install
+  - name: Dev Server
+    init: yarn
     command: yarn dev
-  - init: gp sync-await install
-    command: yarn cy:open
+  - name: E2E Cy
+    command: |
+      gp await-port 3000
+      yarn cy:open
 ports:
   - port: 5900
     onOpen: ignore
