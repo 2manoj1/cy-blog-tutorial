@@ -1,4 +1,5 @@
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#[https://github.com/mikenikles/cypress-on-gitpod](https://github.com/2manoj1/cy-blog-tutorial)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/2manoj1/cy-blog-tutorial)
+
 
 Cypress 10 + Nextjs 12 + Cucumber setup.
 
